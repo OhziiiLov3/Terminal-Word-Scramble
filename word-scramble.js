@@ -50,12 +50,7 @@ function playGame() {
       attempts--;
       if (attempts > 0) {
         if (!hintGiven) {
-          console.log(
-            `❌ Wrong! Here's a hint: The word starts with "${word.slice(
-              0,
-              2
-            )}" `
-          );
+          console.log(`❌ Wrong! Here's a hint: The word starts with "${word.slice(0,2)}" `);
         } else {
           console.log(`❌ Wrong! ${attempts} attempts left.`);
         }
