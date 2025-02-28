@@ -1,5 +1,3 @@
-const { log } = require("node:console");
-
 const prompt = require("prompt-sync")();
 
 console.log("🚨 Welcome to the Javascript Terminal Word Scramble Game 🚨\nhint it's a Javascript term");
